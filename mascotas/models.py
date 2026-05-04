@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 
 class Mascota(models.Model):
     nombre = models.CharField(max_length=100)
-    especie = models.CharField(max_length=100) # Perro, Gato, etc.
+    especie = models.CharField(max_length=100) 
     raza = models.CharField(max_length=100)
     edad = models.IntegerField()
     peso = models.FloatField()
